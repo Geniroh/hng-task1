@@ -10,7 +10,7 @@ const ProfileCard = ({ name, image}) => {
             {name}
         </p>
         <div id="slack" hidden>
-            irochibuzor
+            Geniroh
         </div>
     </div>
   );
