@@ -11,7 +11,7 @@ const ProfileCard = ({ name, image}) => {
             {name}
         </p>
         <div id="slack" hidden>
-            Geniroh
+          Geniroh
         </div>
         <div className="menu">
           <img src={MENU} alt="" />

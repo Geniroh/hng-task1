@@ -15,7 +15,7 @@ export const Contact = () => {
                     <div className="grid-2 py-2">
                         <div className="form-inputs">
                             <label htmlFor="first_name">First name</label>
-                            <input type="text" name="first_name" id="first_name" placeholder="Enteryour first name" required/>
+                            <input type="text" name="first_name" id="first_name" placeholder="Enter your first name" required/>
                         </div>
                         <div className="form-inputs py-2">
                             <label htmlFor="">Last name</label>
