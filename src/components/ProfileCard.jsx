@@ -1,4 +1,5 @@
 import React from "react";
+import MENU from "../images/arrow-right.svg";
 
 const ProfileCard = ({ name, image}) => {
   return (
@@ -11,6 +12,9 @@ const ProfileCard = ({ name, image}) => {
         </p>
         <div id="slack" hidden>
             Geniroh
+        </div>
+        <div className="menu">
+          <img src={MENU} alt="" />
         </div>
     </div>
   );

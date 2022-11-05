@@ -1,9 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export const LinkCard = ({link, displayText, title, id}) => {
+export const LinkCard = ({link, displayText, title, id, external}) => {
   return (
-    <div className="link-card" hidden>
-        <a href={link} target="_blank" rel="noreferrer" title={title} id={id}> {displayText} </a>
+    <div>
+      {
+        external ? (
+          <a href={link} target="_blank" rel="noreferrer" title={title} id={id}  className="link-card"> {displayText} </a>
+        ): (
+          <Link to={link} title={title} id={id}  className="link-card">{displayText}</Link>
+        )
+      }
     </div>
   );
 };
